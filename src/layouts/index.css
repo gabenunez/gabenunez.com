@@ -12,6 +12,16 @@
   clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
 }
 
+.IndexProjects {
+  background: #07c9f9;
+  background: -moz-linear-gradient(top, #07c9f9 0%, #6fdef7 100%);
+  background: -webkit-linear-gradient(top, #07c9f9 0%,#6fdef7 100%);
+  background: linear-gradient(to bottom, #07c9f9 0%,#6fdef7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07c9f9', endColorstr='#6fdef7',GradientType=0 );
+  -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+}
+
 .index-me {
   border-radius: 50%;
   max-width: 150px;
@@ -26,4 +36,26 @@
 
 .index-header-content > p > span:hover {
   cursor: pointer;
+}
+
+.works-tags {
+  margin-top: 10px;
+}
+
+.works-tags > span {
+  font-size: 12px;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0 5px;
+  margin: 5px;
+  background-color: #d0d0d0;
+  margin-left: 0;
+}
+
+.works-tags > span:hover {
+  cursor: default;
+}
+
+.project-col {
+  margin-bottom: 10px;
 }
