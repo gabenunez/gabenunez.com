@@ -20,3 +20,7 @@
 .index-header-content > p {
   font-size: 28px;
 }
+
+.index-header-content > p > span:hover {
+  cursor: pointer;
+}

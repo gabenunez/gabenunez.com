@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
-import Popup from 'react-youtube-modal'
+import DnDmodal from './dnd-modal'
 
 import me from '../../images/me.jpg'
 
@@ -10,7 +10,7 @@ const IndexHeader = () => (
             <Row>
                 <Col md='12' className='index-header-content'>
                     <h1>Hey there, I'm Gabe!</h1>
-                    <p>By day, I'm a web developer and student in the San Francisco Bay Area. By night, I'm still a web developer (who of course fancies the little things in life, like spending time with my Girlfriend 👫 and Dungeons &amp; Dragons 🎲).</p>
+                    <p>By day, I'm a web developer and student in the San Francisco Bay Area. By night, I'm still a web developer (who of course fancies the little things in life, like spending time with my Girlfriend 👫 and <DnDmodal text='Dungeons &amp; Dragons 🎲' />).</p>
                 </Col>
             </Row>
             <Row>
