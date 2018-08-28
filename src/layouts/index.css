@@ -1,10 +1,13 @@
+.index-root > div {
+  padding: 40px 0;
+}
+
 .IndexHeader {
   background: #39d352;
   background: -moz-linear-gradient(top, #39d352 0%, #55d168 100%);
   background: -webkit-linear-gradient(top, #39d352 0%,#55d168 100%);
   background: linear-gradient(to bottom, #39d352 0%,#55d168 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39d352', endColorstr='#55d168',GradientType=0 );
-  padding: 25px 0;
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
 }

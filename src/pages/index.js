@@ -1,9 +1,11 @@
 import React from 'react'
 import IndexHeader from '../components/index/header'
+import IndexAboutMe from '../components/index/about-me';
 
 const IndexPage = () => (
-  <div>
+  <div className='index-root'>
     <IndexHeader />
+    <IndexAboutMe />
   </div>
 )
 

@@ -2,8 +2,6 @@ import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import DnDmodal from './dnd-modal'
 
-import me from '../../images/me.jpg'
-
 const IndexHeader = () => (
     <div className='IndexHeader'>
         <Container>
