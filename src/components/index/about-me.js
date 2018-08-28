@@ -7,7 +7,7 @@ const IndexAboutMe = () => (
     <div className='IndexAboutMe'>
         <Container>
             <Row>
-                <Col md='4' className='order-first'>
+                <Col md='4' className='order-md-12'>
                     <img src={me} 
                         className='mx-auto d-block img-fluid' 
                         style={{borderRadius: '50%'}}
@@ -15,7 +15,7 @@ const IndexAboutMe = () => (
                     />
                     <p className='text-center'><i>Hey, that's me!</i></p>
                 </Col>
-                <Col md='8' className='order-last'>
+                <Col md='8' className='order-md-1'>
                 <h2>A bit about me.</h2>
                 <p>I've always had an obsession with computers, in fact, I still have a very distinct childhood memory when I burned my first CD using Rhapsody (Honestly, I couldn't stop smiling because of the pure excitement).</p>
 
