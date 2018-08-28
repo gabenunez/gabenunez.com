@@ -14,6 +14,7 @@ const IndexHeader = () => (
             <Row>
                 <Col md='12' className='index-header-content'>
                     <h5>Email me business inquiries and memes: <a href='mailto:gabe@gabenunez.com'>gabe@gabenunez.com</a></h5>
+                    <h6>Other fantastic links: <a href="https://github.com/gabenunez/">Github</a> | <a href="https://www.linkedin.com/in/gabenunez/">LinkedIn</a></h6>
                 </Col>
             </Row>
         </Container>
