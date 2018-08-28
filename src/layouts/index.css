@@ -1,3 +1,22 @@
 .IndexHeader {
-  background-image: linear-gradient(to right bottom, #0cc366, #0ec166, #10be66, #11bc65, #13ba65);
+  background: #39d352;
+  background: -moz-linear-gradient(top, #39d352 0%, #55d168 100%);
+  background: -webkit-linear-gradient(top, #39d352 0%,#55d168 100%);
+  background: linear-gradient(to bottom, #39d352 0%,#55d168 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39d352', endColorstr='#55d168',GradientType=0 );
+  padding: 25px 0;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+}
+
+.index-me {
+  border-radius: 50%;
+  max-width: 150px;
+  border: solid 1px white;
+  margin: 0px auto;
+  box-shadow: #000000b3 0px 2px 10px;
+}
+
+.index-header-content > p {
+  font-size: 28px;
 }
