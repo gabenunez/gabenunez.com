@@ -21,7 +21,7 @@ const IndexAboutMe = () => (
 
                 <p>As time went on in my life, another aspect of computing came into play, the internet. At the time (probably age 12 or so), I was fascinated with the real time feedback it provided from all across the world. From then on, I knew I wanted to be part of it and create something that was my own.</p>
 
-                <p>Through the years, I created a couple blobs using Wordpress, Co-Operated an IRC Network, started my own eSports organization, and learned everything I could to make the things I dreamed of possible.</p>
+                <p>Through the years, I created a couple blogs using Wordpress, Co-Operated an IRC Network, started my own eSports organization, and learned everything I could to make the things I dreamed of possible.</p>
 
                 <p><strong>Fast Forward to Today:</strong> I have now been working as a web developer for 5+ years using the magic of HTML, CSS, PHP (mostly for Wordpress), and Javascript to serve millions of online users.</p>
 
