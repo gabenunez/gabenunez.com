@@ -2,6 +2,11 @@
   padding: 40px 0;
 }
 
+.index-header-content > h1 > span {
+  font-size: 14px;
+  border-bottom: solid 1px;
+}
+
 .IndexHeader {
   background: #39d352;
   background: -moz-linear-gradient(top, #39d352 0%, #55d168 100%);
