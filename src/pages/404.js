@@ -7,7 +7,7 @@ const NotFoundPage = () => (
   <Container className='align-items-center h-100'>
 
     <Helmet>
-      <title>404 | Gabe Nunez</title>
+      <title>404 Not Found | Gabe Nuñez</title>
       <meta name="description" content="404 Page... Sorry :(... maybe this page will exist one day?" />
       <meta name="robots" content="noindex" />
     </Helmet>
