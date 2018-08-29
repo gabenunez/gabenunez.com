@@ -4,7 +4,7 @@ import { Col } from 'reactstrap'
 class ProjectCard extends React.Component {
     formatTags(tags) {
         const listItems = tags.map((tag) =>
-            <span>{tag}</span>
+            <span key={tag}>{tag}</span>
         );
 
         return listItems
