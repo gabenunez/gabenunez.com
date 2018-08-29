@@ -4,6 +4,13 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    `gatsby-plugin-typography`
-  ],
+    `gatsby-plugin-typography`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-124809202-1',
+        head: true
+      },
+    },
+    ]
 }
