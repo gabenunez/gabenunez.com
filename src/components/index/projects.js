@@ -23,7 +23,8 @@ const Works = () => (
                     name='Stock vs Trend'
                     desc='Web application that allows you to directly compare Stock pricing and Google Trends data!'
                     link='https://github.com/gabenunez/StockvsTrend'
-                    tags={['React', 'Node.js', 'Axios']}
+                    tags={['React', 'Redux', 'Node.js', 'Axios']}
+                    liveProject='https://stockvstrend.herokuapp.com/'
                 />
                 <ProjectCard
                     name='Codex (Discord Bot)'
