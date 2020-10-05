@@ -13,6 +13,13 @@ const Works = () => (
             </Row>
             <Row className='row-eq-height'>
                 <ProjectCard
+                    name="Slice O' Pizza 🍕"
+                    desc='Full stack app that gets all the latest and greatest pizza newsletters on the same page so you can find the best deal!'
+                    link='https://github.com/gabenunez/slice/'
+                    liveProject='https://sliceopizza.herokuapp.com/'
+                    tags={['React', 'Node.js', 'PostgreSQL']}
+                />
+                <ProjectCard
                     name='ImageFisher 🎣'
                     desc='A Zendesk app that runs a reverse image search on all image attachments from the requester of a ticket.'
                     link='https://github.com/gabenunez/imagefisher/'
@@ -24,13 +31,6 @@ const Works = () => (
                     link='https://github.com/gabenunez/StockvsTrend'
                     tags={['React', 'Redux', 'Node.js', 'Axios']}
                     liveProject='https://stockvstrend.herokuapp.com/'
-                />
-                <ProjectCard
-                    name='Prosoft Engineering, Inc.'
-                    desc='Company website built completely from the ground up, featuring many landing and product pages, an eCommerce solution, and more.'
-                    buttonText='Visit Website'
-                    link='https://web.archive.org/web/20190703082343/https://www.prosofteng.com/'
-                    tags={['Jekyll', 'Bootstrap', 'SASS', 'JQuery', 'Wordpress', 'WooCommerce']}
                 />
             </Row>
         </Container>
