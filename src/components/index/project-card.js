@@ -18,12 +18,11 @@ class ProjectCard extends React.Component {
                         <h5 className='card-title'>{this.props.name}</h5>
                         <p className='card-text'>{this.props.desc}</p>
                         <div className='mt-auto'>
-                            <a href={this.props.link} className='btn btn-info mb-1 mr-1'>{this.props.buttonText ? this.props.buttonText : 'View Github Project'}</a>
+                            {this.props.link && 
+                            <a href={this.props.link} className='btn btn-info mb-1 mr-1'>{this.props.buttonText ? this.props.buttonText : 'View Github Project'}</a>}
                             
-                            {this.props.liveProject ?
+                            {this.props.liveProject &&
                             <a href={this.props.liveProject} className='btn btn-success mb-1'>View Live Version</a>
-                            :
-                            null
                             }
 
                             <div className='works-tags'>
