@@ -16,7 +16,6 @@ const Works = () => (
                     name="Slice O' Pizza 🍕"
                     desc='Full stack app that gets all the latest and greatest pizza newsletters on the same page so you can find the best deal!'
                     link='https://github.com/gabenunez/slice/'
-                    liveProject='https://sliceopizza.herokuapp.com/'
                     tags={['React', 'Node.js', 'PostgreSQL']}
                 />
                 <ProjectCard
