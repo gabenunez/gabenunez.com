@@ -13,10 +13,10 @@ const Works = () => (
             </Row>
             <Row className='row-eq-height'>
                 <ProjectCard
-                    name="Slice O' Pizza 🍕"
-                    desc='Full stack app that gets all the latest and greatest pizza newsletters on the same page so you can find the best deal!'
-                    link='https://github.com/gabenunez/slice/'
-                    tags={['React', 'Node.js', 'PostgreSQL']}
+                    name="Zinus.com"
+                    desc='Completely written from the ground up, as the sole developer, I created this masterpiece! :)'
+                    liveProject='https://www.zinus.com/'
+                    tags={['React', 'Node.js', 'Express', 'HTML', 'CSS']}
                 />
                 <ProjectCard
                     name='ImageFisher 🎣'
@@ -30,6 +30,14 @@ const Works = () => (
                     link='https://github.com/gabenunez/StockvsTrend'
                     tags={['React', 'Redux', 'Node.js', 'Axios']}
                     liveProject='https://stockvstrend.herokuapp.com/'
+                />
+            </Row>
+            <Row className='row-eq-height'>
+                <ProjectCard
+                    name="Slice O' Pizza 🍕"
+                    desc='Full stack app that gets all the latest and greatest pizza newsletters on the same page so you can find the best deal!'
+                    link='https://github.com/gabenunez/slice/'
+                    tags={['React', 'Node.js', 'PostgreSQL']}
                 />
             </Row>
         </Container>
