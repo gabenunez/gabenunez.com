@@ -13,7 +13,7 @@ const IndexAboutMe = () => (
                         style={{borderRadius: '50%'}}
                         alt='Me, Gabe Nunez' 
                     />
-                    <p className='text-center'><i>Hey, that's me and my amazing girlfriend, Angie :)</i></p>
+                    <p className='text-center'><i>Hey, that's me and my amazing Fiancé, Angie :)</i></p>
                 </Col>
                 <Col md='8' className='order-md-1'>
                 <h2>A bit about me.</h2>
