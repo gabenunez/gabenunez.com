@@ -13,9 +13,10 @@ const IndexHeader = () => (
           </h1>
 
           <p>
-            By day, I'm a web developer in the San Francisco Bay Area. By night,
-            I'm still a web developer (who of course fancies the little things
-            in life, like playing <DnDmodal text="Dungeons &amp; Dragons 🎲" />
+            By day, I'm a Customer Success Engineer in the San Francisco Bay
+            Area. By night, I'm still an Engineer (who of course fancies the
+            little things in life, like playing{' '}
+            <DnDmodal text="Dungeons &amp; Dragons 🎲" />
             ).
           </p>
         </Col>
