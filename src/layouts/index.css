@@ -2,7 +2,7 @@
   padding: 40px 0;
 }
 
-.index-header-content > h1 > span {
+.index-header-content > h1 span {
   font-size: 14px;
   border-bottom: solid 1px;
 }
@@ -10,8 +10,8 @@
 .IndexHeader {
   background: #39d352;
   background: -moz-linear-gradient(top, #39d352 0%, #55d168 100%);
-  background: -webkit-linear-gradient(top, #39d352 0%,#55d168 100%);
-  background: linear-gradient(to bottom, #39d352 0%,#55d168 100%);
+  background: -webkit-linear-gradient(top, #39d352 0%, #55d168 100%);
+  background: linear-gradient(to bottom, #39d352 0%, #55d168 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39d352', endColorstr='#55d168',GradientType=0 );
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
@@ -20,8 +20,8 @@
 .IndexProjects {
   background: #07c9f9;
   background: -moz-linear-gradient(top, #07c9f9 0%, #6fdef7 100%);
-  background: -webkit-linear-gradient(top, #07c9f9 0%,#6fdef7 100%);
-  background: linear-gradient(to bottom, #07c9f9 0%,#6fdef7 100%);
+  background: -webkit-linear-gradient(top, #07c9f9 0%, #6fdef7 100%);
+  background: linear-gradient(to bottom, #07c9f9 0%, #6fdef7 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07c9f9', endColorstr='#6fdef7',GradientType=0 );
   -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
