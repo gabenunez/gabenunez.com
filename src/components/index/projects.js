@@ -25,11 +25,11 @@ const Works = () => (
           tags={['Preact', 'Node.js', 'Web Scraping', 'HTML', 'CSS']}
         />
         <ProjectCard
-          name="Stock vs Trend"
+          name="Trendies.fyi"
           desc="Web application that allows you to directly compare Stock pricing and Google Trends data!"
-          link="https://github.com/gabenunez/StockvsTrend"
-          tags={['React', 'Redux', 'Node.js', 'Axios']}
-          liveProject="https://stockvstrend.herokuapp.com/"
+          link="https://github.com/gabenunez/Trendies.fyi"
+          tags={['Next.js', 'React', 'Node.js', 'REST APIs']}
+          liveProject="https://trendies.fyi/"
         />
       </Row>
       <Row className="row-eq-height">
