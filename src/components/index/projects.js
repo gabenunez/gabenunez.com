@@ -34,6 +34,12 @@ const Works = () => (
       </Row>
       <Row className="row-eq-height">
         <ProjectCard
+          name="Cove Cast"
+          desc="A cozy browser-based multiplayer fishing game where players explore an island, catch rare fish, upgrade gear, and relax with friends."
+          liveProject="https://www.covecast.fun/"
+          tags={['Browser Game', 'Multiplayer', 'Fishing']}
+        />
+        <ProjectCard
           name="Slice O' Pizza 🍕"
           desc="Full stack app that gets all the latest and greatest pizza newsletters on the same page so you can find the best deal!"
           link="https://github.com/gabenunez/slice/"
